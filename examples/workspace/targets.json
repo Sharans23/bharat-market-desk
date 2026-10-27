@@ -1,0 +1,21 @@
+{
+  "weights": [
+    {
+      "symbol": "NSE:INFY",
+      "weight": 30
+    },
+    {
+      "symbol": "NSE:TCS",
+      "weight": 25
+    },
+    {
+      "symbol": "NSE:RELIANCE",
+      "weight": 25
+    },
+    {
+      "symbol": "NSE:HDFCBANK",
+      "weight": 20
+    }
+  ],
+  "source": "SYNTHETIC educational weights"
+}

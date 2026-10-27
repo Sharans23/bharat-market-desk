@@ -1,0 +1,10 @@
+{
+  "currency": "INR", "paper": true, "budget_inr": 100000,
+  "cash_buffer_pct": 10, "max_position_pct": 25, "min_order_inr": 500,
+  "max_order_inr": 25000, "max_orders_per_day": 10,
+  "allow_intraday": true, "risk_per_trade_pct": 0.5,
+  "max_daily_loss_pct": 2, "max_quote_age_seconds": 60,
+  "max_quote_deviation_pct": 2, "risk_ttl_seconds": 120,
+  "intraday_entry_cutoff": "14:45", "intraday_exit_reminder": "15:00",
+  "blocked": []
+}

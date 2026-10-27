@@ -1,0 +1,59 @@
+{
+  "synthetic": true,
+  "as_of": "2026-10-26",
+  "source": "SYNTHETIC EXAMPLE; replace from exchange/broker master and surveillance lists",
+  "instruments": {
+    "NSE:INFY": {
+      "segment": "EQ",
+      "series": "EQ",
+      "active": true,
+      "lot_size": 1,
+      "tick_size": 0.1,
+      "lower_band": 1350.0,
+      "upper_band": 1650.0000000000002,
+      "cas_eligible": true,
+      "surveillance": "NONE",
+      "intraday_allowed": true,
+      "broker_symbol": "INFY"
+    },
+    "NSE:TCS": {
+      "segment": "EQ",
+      "series": "EQ",
+      "active": true,
+      "lot_size": 1,
+      "tick_size": 0.1,
+      "lower_band": 2700.0,
+      "upper_band": 3300.0000000000005,
+      "cas_eligible": true,
+      "surveillance": "NONE",
+      "intraday_allowed": true,
+      "broker_symbol": "TCS"
+    },
+    "NSE:RELIANCE": {
+      "segment": "EQ",
+      "series": "EQ",
+      "active": true,
+      "lot_size": 1,
+      "tick_size": 0.1,
+      "lower_band": 1125.0,
+      "upper_band": 1375.0,
+      "cas_eligible": true,
+      "surveillance": "NONE",
+      "intraday_allowed": true,
+      "broker_symbol": "RELIANCE"
+    },
+    "NSE:HDFCBANK": {
+      "segment": "EQ",
+      "series": "EQ",
+      "active": true,
+      "lot_size": 1,
+      "tick_size": 0.1,
+      "lower_band": 900.0,
+      "upper_band": 1100.0,
+      "cas_eligible": true,
+      "surveillance": "NONE",
+      "intraday_allowed": true,
+      "broker_symbol": "HDFCBANK"
+    }
+  }
+}

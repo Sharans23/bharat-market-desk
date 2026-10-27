@@ -1,0 +1,16 @@
+{
+  "rows": [
+    {
+      "symbol": "NSE:INFY",
+      "quantity": 80
+    },
+    {
+      "symbol": "NSE:TCS",
+      "quantity": 40
+    },
+    {
+      "symbol": "NSE:ITC",
+      "quantity": 100
+    }
+  ]
+}

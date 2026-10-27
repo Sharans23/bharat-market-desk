@@ -1,0 +1,10 @@
+{
+  "name": "Illustrative Zerodha NSE cash EQ", "verified_on": "2026-10-26",
+  "source": "https://zerodha.com/charges/",
+  "intraday_brokerage_rate": 0.0003, "intraday_brokerage_cap": 20,
+  "delivery_stt_rate": 0.001, "intraday_sell_stt_rate": 0.00025,
+  "exchange_rate": 0.0000307, "sebi_rate": 0.000001,
+  "delivery_stamp_rate": 0.00015, "intraday_stamp_rate": 0.00003,
+  "gst_rate": 0.18, "delivery_sell_dp_including_gst": 15.34,
+  "note": "Estimate, not a contract note. DP assumed once per sell order conservatively; actual per scrip/day and investor tariff can differ. No IPFT, call-and-trade, auto-square-off or other exceptional fees modeled."
+}

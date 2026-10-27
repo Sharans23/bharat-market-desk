@@ -1,0 +1,59 @@
+{
+  "rows": [
+    {
+      "symbol": "NSE:INFY",
+      "period_end": "2026-09-30",
+      "period_type": "quarter",
+      "basis": "consolidated",
+      "unit": "crore",
+      "revenue": 11000,
+      "net_profit": 2000,
+      "eps": 20,
+      "source_url": "https://example.invalid/synthetic-results"
+    },
+    {
+      "symbol": "NSE:INFY",
+      "period_end": "2026-06-30",
+      "period_type": "quarter",
+      "basis": "consolidated",
+      "unit": "crore",
+      "revenue": 10500,
+      "net_profit": 1900,
+      "eps": 19,
+      "source_url": "https://example.invalid/synthetic-results"
+    },
+    {
+      "symbol": "NSE:INFY",
+      "period_end": "2026-03-31",
+      "period_type": "quarter",
+      "basis": "consolidated",
+      "unit": "crore",
+      "revenue": 10200,
+      "net_profit": 1850,
+      "eps": 18.5,
+      "source_url": "https://example.invalid/synthetic-results"
+    },
+    {
+      "symbol": "NSE:INFY",
+      "period_end": "2025-12-31",
+      "period_type": "quarter",
+      "basis": "consolidated",
+      "unit": "crore",
+      "revenue": 10000,
+      "net_profit": 1800,
+      "eps": 18,
+      "source_url": "https://example.invalid/synthetic-results"
+    },
+    {
+      "symbol": "NSE:INFY",
+      "period_end": "2025-09-30",
+      "period_type": "quarter",
+      "basis": "consolidated",
+      "unit": "crore",
+      "revenue": 9000,
+      "net_profit": 1700,
+      "eps": 17,
+      "source_url": "https://example.invalid/synthetic-results"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "rows": [
+    {
+      "symbol": "NSE:INFY",
+      "title": "Synthetic earnings announcement",
+      "published_at": "2026-10-26T09:30:00+05:30",
+      "url": "https://example.invalid/synthetic-news",
+      "id": "synthetic-news-1"
+    }
+  ],
+  "errors": {}
+}

@@ -1,0 +1,13 @@
+{
+  "rows": [
+    {
+      "symbol": "NSE:INFY",
+      "person": "Synthetic Example Person",
+      "transaction_date": "2026-10-22",
+      "disclosed_at": "2026-10-26T09:30:00+05:30",
+      "transaction_type": "Market purchase",
+      "quantity": 100,
+      "source_url": "https://example.invalid/synthetic-disclosure"
+    }
+  ]
+}

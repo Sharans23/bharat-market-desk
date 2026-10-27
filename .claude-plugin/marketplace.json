@@ -1,0 +1,13 @@
+{
+  "name": "india-trader-local",
+  "owner": {
+    "name": "India Trader maintainers"
+  },
+  "plugins": [
+    {
+      "name": "india-trader",
+      "source": "./",
+      "description": "Indian-market adaptation of trader-skill"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "rules": [
+    {
+      "kind": "above",
+      "symbol": "NSE:INFY",
+      "price": 1500
+    },
+    {
+      "kind": "open",
+      "exchange": "NSE",
+      "cas_eligible": true
+    },
+    {
+      "kind": "square_off_reminder",
+      "exchange": "NSE",
+      "cas_eligible": true,
+      "time": "15:00"
+    }
+  ]
+}

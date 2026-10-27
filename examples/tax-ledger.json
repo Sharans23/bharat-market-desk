@@ -1,0 +1,44 @@
+{
+  "rows": [
+    {
+      "account": "DEMO-DEMAT",
+      "symbol": "NSE:INFY",
+      "side": "BUY",
+      "quantity": 10,
+      "price": 1400,
+      "date": "2025-01-01",
+      "delivery": true,
+      "costs_ex_stt_inr": 0
+    },
+    {
+      "account": "DEMO-DEMAT",
+      "symbol": "NSE:INFY",
+      "side": "SELL",
+      "quantity": 10,
+      "price": 1500,
+      "date": "2026-04-02",
+      "delivery": true,
+      "costs_ex_stt_inr": 0
+    },
+    {
+      "account": "DEMO-DEMAT",
+      "symbol": "NSE:INFY",
+      "side": "BUY",
+      "quantity": 10,
+      "price": 1500,
+      "date": "2026-10-26",
+      "delivery": false,
+      "costs_ex_stt_inr": 0
+    },
+    {
+      "account": "DEMO-DEMAT",
+      "symbol": "NSE:INFY",
+      "side": "SELL",
+      "quantity": 10,
+      "price": 1510,
+      "date": "2026-10-26",
+      "delivery": false,
+      "costs_ex_stt_inr": 0
+    }
+  ]
+}

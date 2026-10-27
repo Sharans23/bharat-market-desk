@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "metric": "net_margin_pct",
+      "op": ">=",
+      "value": 10
+    },
+    {
+      "metric": "revenue_growth_yoy_pct",
+      "op": ">",
+      "value": 0
+    }
+  ],
+  "rank": [
+    {
+      "metric": "revenue_growth_yoy_pct",
+      "order": "desc",
+      "weight": 1
+    }
+  ],
+  "top": 5
+}

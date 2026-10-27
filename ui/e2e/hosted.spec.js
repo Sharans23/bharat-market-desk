@@ -1,0 +1,36 @@
+import {test,expect} from '@playwright/test';
+
+test('private hosted workspace signs in, plans, connects and signs out',async({page})=>{
+ const errors=[];page.on('pageerror',error=>errors.push(error.message));
+ await page.goto('/');
+ await expect(page.getByRole('heading',{name:'Bharat Market Desk',exact:true})).toBeVisible();
+ await page.getByLabel('Workspace access key').fill('incorrect');
+ await page.getByRole('button',{name:'Open workspace',exact:true}).click();
+ await expect(page.getByRole('alert')).toContainText('Invalid access key');
+ await page.getByLabel('Workspace access key').fill(process.env.TEST_ACCESS_KEY);
+ await page.getByRole('button',{name:'Open workspace',exact:true}).click();
+ await expect(page.locator('main h1')).toHaveText('Your market workspace');
+ await page.getByRole('navigation').getByRole('button',{name:'Trade planner',exact:true}).click();
+ await page.getByRole('button',{name:'Build allocation',exact:true}).click();
+ await expect(page.locator('.results')).toContainText('NSE:INFY');
+ await page.getByRole('navigation').getByRole('button',{name:'Connections',exact:true}).click();
+ await expect(page.getByText('Access tokens are encrypted on the persistent server disk.',{exact:false})).toBeVisible();
+ await page.getByRole('button',{name:'Connect Zerodha Kite'}).click();
+ await page.getByLabel('API key',{exact:true}).fill('synthetic-ui-key');
+ await page.getByLabel('API secret · used for this login only').fill('synthetic-ui-secret');
+ await page.getByRole('button',{name:'Start Kite login'}).click();
+ await expect(page.getByRole('link',{name:'Continue to Zerodha'})).toHaveAttribute('href',/^https:\/\/kite\.zerodha\.com\/connect\/login/);
+ expect(await page.evaluate(()=>JSON.stringify({...localStorage,...sessionStorage}))).not.toContain('synthetic-ui');
+ await page.getByRole('button',{name:'Close dialog',exact:true}).click();
+ await page.getByRole('navigation').getByRole('button',{name:'How to use',exact:true}).click();
+ await page.getByRole('button',{name:'Hosting',exact:true}).click();
+ await expect(page.getByRole('dialog')).toContainText('hosted workspace');
+ await page.getByRole('button',{name:'Close dialog',exact:true}).click();
+ await page.getByRole('button',{name:'Sign out',exact:true}).click();
+ await expect(page.getByLabel('Workspace access key')).toBeVisible();
+ await page.reload();await expect(page.getByLabel('Workspace access key')).toBeVisible();
+ await page.setViewportSize({width:390,height:844});
+ expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+ await page.screenshot({path:'test-results/hosted-sign-in-mobile.png',fullPage:true});
+ expect(errors).toEqual([]);
+});

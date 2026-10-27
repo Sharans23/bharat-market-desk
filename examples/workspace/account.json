@@ -1,0 +1,13 @@
+{
+  "portfolio": {
+    "currency": "INR",
+    "cash_inr": 100000,
+    "positions": [],
+    "lots": [],
+    "trading_date": "2026-10-26",
+    "daily_pnl_inr": 0,
+    "day_start_equity_inr": 100000
+  },
+  "events": [],
+  "approvals": {}
+}

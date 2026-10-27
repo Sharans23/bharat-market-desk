@@ -1,0 +1,152 @@
+{
+  "checked_at": "2026-10-26T22:53:09.471141+05:30",
+  "quotes": {
+    "quotes": {
+      "NSE:INFY": {
+        "price": 1166.0,
+        "currency": "INR",
+        "as_of": "2026-10-26T15:28:08+05:30",
+        "source": "Yahoo chart (unofficial; delay not guaranteed)",
+        "execution_grade": false
+      }
+    },
+    "errors": {},
+    "fetched_at": "2026-10-26T22:53:09.738040+05:30"
+  },
+  "nse": {
+    "announcements": {
+      "ok": false,
+      "error": "Public source unavailable (www.nseindia.com): HTTP Error 403: Forbidden. Use downloaded CSV/JSON; no data was fabricated."
+    },
+    "insider": {
+      "ok": true,
+      "row_count": 20,
+      "sample": [
+        {
+          "symbol": "NSE:INFY",
+          "source_url": "https://www.nseindia.com/api/corporates-pit?index=equities&symbol=INFY",
+          "raw": {
+            "acqMode": "Off Market",
+            "acqName": "Infosys Employee benefits Trust",
+            "acqfromDt": "27-Mar-2026",
+            "acqtoDt": "27-Mar-2026",
+            "afterAcqSharesNo": "8668508",
+            "afterAcqSharesPer": "0.21",
+            "anex": "7(2)",
+            "befAcqSharesNo": "8668483",
+            "befAcqSharesPer": "0.21",
+            "buyQuantity": "0",
+            "buyValue": "0",
+            "company": "Infosys Limited",
+            "date": "06-Apr-2026 16:07",
+            "derivativeType": "-",
+            "did": "570208",
+            "exchange": "NA",
+            "intimDt": "02-Apr-2026",
+            "personCategory": "Other",
+            "pid": "1197666",
+            "remarks": "-",
+            "secAcq": "25",
+            "secType": "ADR/GDR/FCCB",
+            "secVal": "31743",
+            "securitiesTypePost": "ADR/GDR/FCCB",
+            "sellValue": "0",
+            "sellquantity": "0",
+            "symbol": "INFY",
+            "tdpDerivativeContractType": "-",
+            "tdpTransactionType": "-",
+            "tkdAcqm": null,
+            "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/IT_1197666_1646241_06042026040732_WEB.xml",
+            "xbrlFileSize": "11.57 KB"
+          },
+          "id": "c0c249cc983b8ae1229b4b16a8a0801b627f95d251458fe5d28ec0bf3135a55d"
+        }
+      ]
+    },
+    "results": {
+      "ok": true,
+      "row_count": 13,
+      "sample": [
+        {
+          "symbol": "NSE:INFY",
+          "source_url": "https://www.nseindia.com/api/corporates-financial-results?index=equities&symbol=INFY",
+          "raw": {
+            "audited": "Audited",
+            "bank": "N",
+            "broadCastDate": "12-Oct-2012 09:17:55",
+            "companyName": "Infosys Limited",
+            "consolidated": "Non-Consolidated",
+            "cumulative": "Cumulative",
+            "difference": "::",
+            "exchdisstime": null,
+            "filingDate": "12-Oct-2012 09:25",
+            "financialYear": "01-Apr-2012 To 31-Mar-2013",
+            "format": "Old",
+            "fromDate": "01-Apr-2012",
+            "indAs": "Non-Ind-AS",
+            "industry": "-",
+            "isin": "INE009A01021",
+            "oldNewFlag": "N",
+            "params": "01-Apr-201230-Sep-2012H1ANCNAEINFY",
+            "period": "Half-Yearly",
+            "reInd": "-",
+            "relatingTo": "First Half",
+            "resultDescription": null,
+            "resultDetailedDataLink": "https://nsearchives.nseindia.com/archives/financial_results/financial_res_INFY_99728.html",
+            "seqNumber": "99728",
+            "symbol": "INFY",
+            "toDate": "30-Sep-2012",
+            "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/-"
+          },
+          "id": "fd3d78376cff5bb659599ca438fe32aebc988c287af301c6489e58719cda9856"
+        }
+      ]
+    },
+    "shareholding": {
+      "ok": true,
+      "row_count": 22,
+      "sample": [
+        {
+          "symbol": "NSE:INFY",
+          "source_url": "https://www.nseindia.com/api/corporate-share-holdings-master?index=equities&symbol=INFY",
+          "raw": {
+            "broadcastDate": "20-OCT-2026 12:07:37",
+            "cgTimeStamp": null,
+            "countString": null,
+            "date": "30-SEP-2026",
+            "desc": "NEW_1",
+            "employeeTrusts": "0.21",
+            "format": null,
+            "index": "-",
+            "industry": "-",
+            "isin": "IN9009A01011",
+            "name": "Infosys Limited",
+            "newColumn": true,
+            "pr_and_prgrp": "13.9",
+            "promoterDematNotes": "",
+            "publicShareholdingNotes": "",
+            "public_val": "85.88",
+            "recordId": "215753",
+            "remarksWeb": "N",
+            "revisedData": "N",
+            "revisedDate": null,
+            "revisedRemark": null,
+            "revisedStatus": "-",
+            "revisionDate": null,
+            "revisionRemark": null,
+            "shareholdingPatternNotes": "",
+            "submissionDate": "20-OCT-2026",
+            "symbol": "INFY",
+            "systemDate": "20-OCT-2026 12:07:41",
+            "timeDifference": "00:00:04",
+            "typeOfSubmission": null,
+            "underlyingDrs": null,
+            "xbrl": "https://nsearchives.nseindia.com/corporate/xbrl/SHP_1742200_20102026120732_WEB.xml",
+            "xbrlFileSize": "267.31 KB"
+          },
+          "id": "04fd195e6e80ac24a53c22c8b99cc8b78f11b7eaa1df31730a932c735cc9bc80"
+        }
+      ]
+    }
+  }
+}

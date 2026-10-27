@@ -1,0 +1,27 @@
+services:
+  - type: web
+    name: bharat-market-desk
+    runtime: docker
+    plan: 0.5c-512mb
+    region: singapore
+    branch: main
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /healthz
+    numInstances: 1
+    autoDeployTrigger: checksPass
+    disk:
+      name: bharat-market-data
+      mountPath: /var/data
+      sizeGB: 1
+    envVars:
+      - key: APP_DATA_DIR
+        value: /var/data/bharat-market-desk
+      - key: PERSISTENT_STORAGE_CONFIRMED
+        value: "true"
+      - key: APP_ACCESS_KEY
+        generateValue: true
+      - key: SESSION_SIGNING_KEY
+        generateValue: true
+      - key: CREDENTIAL_ENCRYPTION_KEY
+        generateValue: true

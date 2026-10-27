@@ -1,0 +1,19 @@
+{
+  "name": "india-trader",
+  "version": "1.2.0",
+  "description": "Eleven Indian equity research, risk and paper trading skills",
+  "license": "MIT",
+  "skills": [
+    "./skills/india-trader-copycat",
+    "./skills/india-trader-news",
+    "./skills/india-trader-budget",
+    "./skills/india-trader-disclosures",
+    "./skills/india-trader-analyst",
+    "./skills/india-trader-screener",
+    "./skills/india-trader-risk",
+    "./skills/india-trader-broker",
+    "./skills/india-trader-tax",
+    "./skills/india-trader-alerts",
+    "./skills/india-trader-rebalance"
+  ]
+}

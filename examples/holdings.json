@@ -1,0 +1,32 @@
+{
+  "rows": [
+    {
+      "symbol": "NSE:INFY",
+      "quantity": 100,
+      "market_value_inr": 150000,
+      "as_of": "2026-09-30",
+      "source_url": "https://example.invalid/synthetic-holdings"
+    },
+    {
+      "symbol": "NSE:TCS",
+      "quantity": 40,
+      "market_value_inr": 120000,
+      "as_of": "2026-09-30",
+      "source_url": "https://example.invalid/synthetic-holdings"
+    },
+    {
+      "symbol": "NSE:RELIANCE",
+      "quantity": 100,
+      "market_value_inr": 125000,
+      "as_of": "2026-09-30",
+      "source_url": "https://example.invalid/synthetic-holdings"
+    },
+    {
+      "symbol": "NSE:HDFCBANK",
+      "quantity": 80,
+      "market_value_inr": 80000,
+      "as_of": "2026-09-30",
+      "source_url": "https://example.invalid/synthetic-holdings"
+    }
+  ]
+}
