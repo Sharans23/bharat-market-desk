@@ -31,6 +31,6 @@ The container serves both `/` and `/api/*`; there is no separate Vercel project 
 
 ## Local verification
 
-Install Python 3.12 and Node 22. Run `pip install -r requirements.txt`, then `npm ci` and `npm run build` inside `ui`, followed by `python -m unittest discover -s tests` at the repository root. The original local launcher remains supported. Hosted deployments must use the Dockerfile/Gunicorn entrypoint, not the loopback development server.
+Install Python 3.12, Node 22 and Chrome. Run `pip install -r requirements.txt`, then `npm ci` and `npm run build` inside `ui`, followed by `python -m unittest discover -s tests` at the repository root. Run `python scripts/verify_browser.py` for all eight browser workflows against temporary workspaces; it does not use your running local app or saved accounts. The original local launcher remains supported. Hosted deployments must use the Dockerfile/Gunicorn entrypoint, not the loopback development server.
 
 References: [Blueprint fields](https://render.com/docs/blueprint-spec), [persistent disks](https://render.com/docs/disks), [pricing](https://render.com/pricing).

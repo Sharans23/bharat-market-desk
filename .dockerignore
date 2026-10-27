@@ -23,3 +23,10 @@
 **/.env*
 **/*.dpapi
 **/*.fernet
+**/node_modules/
+**/credentials/
+**/snapshots/
+ui/dist/
+ui/e2e/
+ui/test-results/
+ui/playwright-report/
